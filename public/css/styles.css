@@ -2,7 +2,7 @@
 body{
     color: #333333;
     font-family: arial;
-    max-width: 650px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 0 16px;
 
@@ -45,4 +45,14 @@ button{
     background: #888888;
     color: white;
     padding: 8px;
+}
+.background{
+    background-image: url('/img/background.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    
+    flex-grow: 1;
 }
